@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Why Runlayer | Spire Global</title>
+<meta name="description" content="How Runlayer's governance, security, analytics, and developer tooling map directly to Spire Global's business units and public disclosures.">
+<script src="https://cdn.tailwindcss.com"></script>
+<script>
+  tailwind.config = { theme: { extend: { colors: { space:{900:'#05070d',800:'#0a0e1a',700:'#111527'}, brand:{500:'#6366f1',600:'#4f46e5',400:'#818cf8'}, orbit:{400:'#22d3ee',500:'#06b6d4'} }, fontFamily:{sans:['Inter','ui-sans-serif','system-ui']} } } }
+</script>
+<style>
+  body { background: radial-gradient(ellipse at top, #111527 0%, #05070d 60%); }
+  .glass { background: rgba(255,255,255,0.04); backdrop-filter: blur(8px); border: 1px solid rgba(255,255,255,0.08); }
+</style>
+</head>
+<body class="text-slate-200 font-sans antialiased">
+
+<nav class="sticky top-0 z-50 glass">
+  <div class="max-w-6xl mx-auto px-6 py-4 flex items-center justify-between">
+    <div class="flex items-center gap-2">
+      <div class="w-8 h-8 rounded-md bg-gradient-to-br from-brand-500 to-orbit-400"></div>
+      <span class="font-semibold text-white tracking-tight">Runlayer</span>
+      <span class="text-slate-500 mx-2">/</span>
+      <span class="text-slate-400 text-sm">for Spire Global</span>
+    </div>
+    <div class="hidden md:flex items-center gap-8 text-sm text-slate-300">
+      <a href="index.html" class="hover:text-white transition">Home</a>
+      <a href="why-spire-global.html" class="text-white">Why Runlayer</a>
+      <a href="proof.html" class="hover:text-white transition">Proof</a>
+      <a href="start.html" class="hover:text-white transition">Get Started</a>
+    </div>
+    <a href="start.html" data-track="nav_cta_talk_to_us" class="text-sm font-medium px-4 py-2 rounded-lg bg-brand-600 hover:bg-brand-500 transition text-white">Talk to us</a>
+  </div>
+</nav>
+
+<header class="max-w-6xl mx-auto px-6 pt-16 pb-10">
+  <span class="text-xs font-semibold text-orbit-400 uppercase tracking-wider">Tailored value proposition</span>
+  <h1 class="text-4xl md:text-5xl font-bold text-white mt-3 max-w-3xl">Why Runlayer, why now, for Spire Global</h1>
+  <p class="text-slate-300 mt-5 max-w-2xl">Spire turned space data into a public company on the strength of four distinct business lines and a genuinely novel AI product (AI-S2S). The next chapter &mdash; agentic AI woven through Federal, Weather &amp; Climate, Aviation, and Space Services &mdash; is a governance and scale problem before it's a modeling problem. Here's how Runlayer maps to it, section by section.</p>
+</header>
+
+<section id="governance" class="max-w-6xl mx-auto px-6 py-10 grid md:grid-cols-3 gap-8 items-start">
+  <div class="md:col-span-1">
+    <span class="inline-block px-3 py-1 rounded-full glass text-xs text-brand-400 mb-3">Governance &amp; Control</span>
+    <h2 class="text-2xl font-bold text-white">Close the same gap the 10-K already flagged</h2>
+  </div>
+  <div class="md:col-span-2 text-slate-300 space-y-4">
+    <p>Spire's FY2024 10-K disclosed a material weakness in disclosure controls between finance and accounting teams &mdash; the kind of cross-team review gap that shows up wherever there's no single, enforced policy layer. It was followed by two NYSE notices for late Form 10-Q filings in 2025, and it's now formally remediated. But the underlying shape of the problem &mdash; four GM-led business units (Federal, Weather &amp; Climate, Aviation, Space Services) each moving at their own pace, reporting up to one board and Audit Committee &mdash; is structural, not one-time.</p>
+    <p>As those business units start putting AI agents into production &mdash; touching customer data, satellite tasking, or financial reporting workflows &mdash; the same risk resurfaces in a new form: who approved this agent's access, what could it touch, and can you prove it to an auditor six months later?</p>
+    <p><strong class="text-white">Runlayer's policy-based access control (PBAC)</strong> lets Spire define what any agent, in any business unit, is allowed to do &mdash; and enforce it centrally, not per-team. <strong class="text-white">Approval workflows</strong> route sensitive agent actions to a human before they execute. <strong class="text-white">Audit logs</strong> give the Audit Committee and CTO's board-level cybersecurity briefings a ready-made, immutable record &mdash; the same kind of evidence that would have made the disclosure-controls remediation faster the first time.</p>
+  </div>
+</section>
+
+<section id="compliance" class="max-w-6xl mx-auto px-6 py-10 grid md:grid-cols-3 gap-8 items-start border-t border-white/5">
+  <div class="md:col-span-1">
+    <span class="inline-block px-3 py-1 rounded-full glass text-xs text-orbit-400 mb-3">Compliance &amp; Security</span>
+    <h2 class="text-2xl font-bold text-white">Trust infrastructure for a defense-adjacent business</h2>
+  </div>
+  <div class="md:col-span-2 text-slate-300 space-y-4">
+    <p>Spire is ISO 27001 certified across its ISMS &mdash; corporate IT, satellite command/control, and ground stations &mdash; and its 10-K is explicit about ITAR, EAR, and OFAC exposure given the nature of its RF and geospatial data. Its government pipeline keeps deepening: a Missile Defense Agency SHIELD IDIQ award, a Diehl Defence early-warning agreement, and a national-security-focused advisory board addition (a former Vice Chairman of the Joint Chiefs). None of that shows a public FedRAMP authorization or SOC 2 attestation yet.</p>
+    <p>That's a gap Runlayer is built to close on the AI layer specifically. Our <strong class="text-white">Trust Center</strong> publishes our SOC 2 Type II report, security architecture, and data residency posture &mdash; the exact artifact a federal security questionnaire asks for. Built-in <strong class="text-white">PII detection and token masking</strong> keep sensitive orbital, customer, or export-controlled data from leaking through an agent's context window, and every agent action is logged for audit, not just logged in principle.</p>
+  </div>
+</section>
+
+<section id="scaling" class="max-w-6xl mx-auto px-6 py-10 grid md:grid-cols-3 gap-8 items-start border-t border-white/5">
+  <div class="md:col-span-1">
+    <span class="inline-block px-3 py-1 rounded-full glass text-xs text-brand-400 mb-3">Scaling AI Operations</span>
+    <h2 class="text-2xl font-bold text-white">One dashboard for AI-S2S, GPS-RO, and whatever comes next</h2>
+  </div>
+  <div class="md:col-span-2 text-slate-300 space-y-4">
+    <p>AI-S2S &mdash; a 200-member generative AI ensemble for sub-seasonal-to-seasonal weather forecasting, built with NVIDIA's Omniverse Blueprint for Earth-2 &mdash; is proof Spire can out-build the incumbents on AI, not just data collection. That capability will keep expanding: into GNSS-R sea-ice and soil-moisture mapping, RF geolocation, and orbit determination, run by teams spread across the US, UK, Germany, Canada, and Luxembourg, all on one shared AWS platform.</p>
+    <p>The risk at that scale isn't model quality, it's operational visibility &mdash; knowing which agents are deployed where, what they're costing, and where a AWS-dependency risk (already called out in the 10-K) turns into a production incident. <strong class="text-white">Runlayer's analytics dashboard</strong> gives Spire's platform and ML leadership (including the ML, Modeling &amp; Data Assimilation team behind AI-S2S) a single view of agent usage, cost, and performance across every business unit and geography. <strong class="text-white">Deployment management</strong> makes rolling out a new agent to the Aviation team as controlled and repeatable as it is for Federal.</p>
+  </div>
+</section>
+
+<section id="developers" class="max-w-6xl mx-auto px-6 py-10 grid md:grid-cols-3 gap-8 items-start border-t border-white/5">
+  <div class="md:col-span-1">
+    <span class="inline-block px-3 py-1 rounded-full glass text-xs text-orbit-400 mb-3">Developer Productivity</span>
+    <h2 class="text-2xl font-bold text-white">Meet an API-first engineering org where it already lives</h2>
+  </div>
+  <div class="md:col-span-2 text-slate-300 space-y-4">
+    <p>Spire already runs three separate public developer portals &mdash; Aviation, Weather, and Space Services &mdash; plus GitHub sample repos and a public status page. It's actively hiring backend, embedded, firmware, and network engineers across Boulder, Glasgow, Munich, and Cambridge, Ontario. This is a team that ships developer experience as a product, not an afterthought &mdash; but there's no public signal yet of MCP or AI coding-agent tooling in that stack.</p>
+    <p><strong class="text-white">Runlayer's MCP server catalog</strong> gives that engineering org a governed way to expose internal tools (constellation tasking, the Constellation Management Platform, weather data pipelines) to AI agents and IDE copilots, without every business unit hand-rolling its own integration. The <strong class="text-white">plugin ecosystem and IDE integrations</strong> mean the same engineers building aviation-docs.spire.com and developers.wx.spire.com can adopt AI-assisted development with the same platform discipline they already apply to their public APIs.</p>
+  </div>
+</section>
+
+<section class="max-w-6xl mx-auto px-6 py-16">
+  <div class="glass rounded-2xl p-10 text-center bg-gradient-to-br from-brand-600/20 to-orbit-500/10">
+    <h2 class="text-2xl md:text-3xl font-bold text-white">See it against Spire's own stack</h2>
+    <p class="text-slate-300 mt-3 max-w-xl mx-auto">We'll walk through PBAC, the Trust Center, and the analytics dashboard against a workflow from Federal or Weather &amp; Climate &mdash; your call.</p>
+    <a href="start.html" data-track="why_page_cta_get_started" class="inline-block mt-6 px-8 py-3 rounded-lg bg-brand-600 hover:bg-brand-500 transition text-white font-medium">Get your personalized plan &rarr;</a>
+  </div>
+</section>
+
+<footer class="border-t border-white/5 py-10 text-center text-xs text-slate-500">
+  Built by Runlayer for Spire Global &middot; Not affiliated with or endorsed by Spire Global, Inc. &middot; Last researched: July 13, 2026.
+</footer>
+
+</body>
+</html>
